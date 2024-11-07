@@ -27,7 +27,7 @@ function Navbar() {
         <div className="container-fluid">
           <a
             style={{ transition: "all 0.3s ease" }}
-            className={`navbar-brand ${scrolled ? "fs-4" : "fs-2"}`}
+            className={`navbar-brand ${scrolled ? "fs-3" : "fs-2"}`}
             href="/"
           >
             Snap Wicket
@@ -45,6 +45,15 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a
+                  style={{ transition: "all 0.3s ease" }}
+                  className={`nav-link ${scrolled ? "fs-6" : "fs-5"}`}
+                  href="/"
+                >
+                  Play Game
+                </a>
+              </li>
               <li className="nav-item">
                 <a
                   style={{ transition: "all 0.3s ease" }}
